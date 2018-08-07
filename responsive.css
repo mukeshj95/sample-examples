@@ -1,0 +1,1193 @@
+@media (min-width: 1100px) and (max-width: 1300px) {
+    p.logo-here {
+        padding: 0 15px;
+    }
+    p.logo-here::before {
+        left: -5%;
+    }
+    .icon-box .mega-dropdown-menu {
+        top: 60px;
+        right: 0;
+        left: auto;
+    }
+}
+@media (max-width: 1365px) {
+    .ad-verticle-160 {
+        display: none;
+    }
+    header nav .navbar-nav li {margin: 17px 7px 0 7px}  
+}
+/******** Desktop **********/
+@media (max-width:990px) {
+    h1{font-size:34px; line-height:36px;font-family: 'Passion One', cursive; color: #333333; margin-bottom: 20px;}
+    h2{font-size:30px; line-height:32px;font-family: 'Alegreya Sans', sans-serif; color: #333333; margin-bottom: 20px;}
+    h3{font-size:20px; line-height:26px;font-family: 'Alegreya Sans', sans-serif; color: #333333; margin: 0;}
+    h4{font-size:26px; line-height:36px;font-family: 'Alegreya Sans', sans-serif;margin-bottom: 10px; color: #333333;}
+    header .navbar-light .navbar-nav {
+        float: block;
+    }
+    header .navbar-light .navbar-nav .nav-item {
+        float: left;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+    }
+    .navbar-light .navbar-toggler {
+        margin-top: 25px;
+    }
+    header {
+        min-height: 4rem;
+    }
+    .lists-bottom {
+        padding-left: 10px;
+    }
+    .lists-bottom ul li > a {
+        padding: 5px 5px 5px 0;
+    }
+    .icon-box {
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .video-top {
+        display: none;
+    }
+    .md-m-0 {
+        margin: 0;
+    }
+    .width-600 {
+        flex: 300px;
+        max-width: 400px;
+    }
+    h4.artist {
+        top: -12px;
+        font-size: 18px;
+    }
+    .artist-month {
+        padding: 5px;
+    }
+    .virtual > h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    #viewDetails label:nth-child(2) {
+        padding-top: 10px;
+        line-height: 25px;
+        font-size: 12px;
+        max-height: 30px;
+    }
+    #viewDetails i {
+        padding-left: 5px;
+        min-width: 30px;
+    }
+    #viewDetails {
+        margin-top: 0 !important;
+    }
+    #viewDetails > div.full-wide {
+        max-height: 35px;
+    }
+    .pipe {
+        padding: 0;
+    }
+    .video-title {
+        left: 12%;
+        bottom: 8%;
+        line-height: 24px;
+        max-width: 400px;
+        padding: 5px 10px;
+    }
+    #ratingView .md-radio label {
+        min-width: 50px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    #ratingView .md-radio label:before {
+        left: 15px;
+    }
+    #ratingView .md-radio label:after {
+        left: 20px;
+    }
+    .padding-q {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .inline-radio label {
+        font-size: 14px;
+        font-weight: 500;
+        padding-top: 2px;
+    }
+    .col-33 img {
+        max-height: 150px;
+        width: 100%;
+    }
+    .inline-radio {
+        margin-top: 0;
+    }
+    .inline-button .btn-default {
+        margin-left: 10px;
+    }
+    .md-pt-30 {
+        padding-top: 20px !important;
+    }
+    h1.box::after {
+        top: 10px;
+    }
+    i.arrows {
+        top: -8px;
+    }
+    .description {
+        padding: 5px 10px;
+    }
+    a.photo-link p {
+        font-size: 11px;
+        padding: 3px 10px;
+    }
+    a.photo-link label {
+        bottom: 20px;
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    a.photo-link label::after {
+        height: 25px;
+        left: 4px;
+        top: 1px;
+        width: 22px;
+        background-size: 35px;
+    }
+    #ratingView .md-radio {
+        margin: 8px 0;
+    }
+    .bg-pink .bg-white h4.artist {
+        top: -20px;
+    }
+    .card-title {
+        padding-bottom: 0;
+        margin-bottom: 0 !important;
+    }
+    .md-4 {
+        width: 33.33%;
+    }
+    .video-link {
+        margin-top: 0;
+        padding: 40px 20px;
+        margin-bottom: 20px;
+        display: inline-table;
+    }
+    div.side-tv {
+        display: block;
+    }
+    .video-title {
+        left: 8%;
+        bottom: 8%;
+        max-width: 450px;
+        padding: 5px 10px;
+    }
+    .video-title small {
+        display: block;
+    }
+    .video-bg {
+        background: url(../img/bubble-bg.png) top left repeat #9e0e12;
+    }
+    .videos-bg-full {
+        background-image: url(../img/full-tv.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+    }
+    .video-bg .videos-bg img.video-top {
+        top: -25%;
+        right: 4%;
+    }
+    h1.artist {
+        font-size: 28px;
+    }
+    .video-list ul li {
+        padding: 0 10px 15px 10px;
+    }
+    .bg-pink div.right-side, .bg-pink div.left-side {
+        padding: 0 10px;
+    }
+    .d-inline-flex {
+        display: inline-flex !important;
+    }
+    img.video-top {
+        top: -24%;
+    }
+}
+
+/******** iPad **********/
+@media (max-width:768px) {
+    .nav-item.float-left.border-l-r{border-right: 0; margin:0 0 0 10px; padding-left: 5px;}
+    .right-nav{margin-top: 25px; position: absolute; right: 0; margin-top: 17px;}
+    .collection-img {
+       display: none; 
+    }
+    .about-me .card {padding: 15px 20px;}
+    .about-me {position: static;}
+    div.account-info {height: 230px;}
+    .guest-blog .card-footer{background: transparent; width: 100%;}
+    .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .navbar {
+        display: block;
+    }
+    .movie-image {
+        display: none;
+    }
+    .pagination-box .pagination {
+        display: block;
+    }
+    .celebs-list-view .celeb-list {
+        margin-bottom: 15px;
+    }
+    .celeb-des {
+        background: none;
+    }
+    .celeb-des div {
+        padding: 0;
+    }
+    .celebs-dir .pagination-box li {
+        float: left;
+    }
+    .bottom-btn  {
+        width: 100%;
+        text-align: center;
+    }
+    .pagination-box-left {
+        width: 100%;
+    }
+    .table-content .shadow {
+        height: auto;
+    }
+   .button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .button a {
+        display: inline-block;
+        white-space: normal;
+    }
+    .box-office-navs {
+        display: block;
+    }
+    .arrowsSub, i.arrows  {
+        display: none;
+    }
+    .profile .icon-box {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin: 0;
+    }
+    .profile {
+        border: none;
+    }
+    .box-office .owl-nav .owl-next::after {
+        right: 0; 
+    }
+    .box-office .owl-nav .owl-prev::after {
+       left: 0;
+    }
+    #boxOffice .boxOffice label span {
+        padding: 0 8px;
+    }
+    #boxOffice .boxOffice label span b {
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .inline-button {
+        display: block;
+        margin: 10px 0 10px;
+    }
+    p.news-details {
+        padding: 0;
+    }
+    .card-footer {
+        width: 70%;
+    }
+    .card-footer p {
+        margin-bottom: 5px;
+    }
+    .width-600.full {
+        min-width: 100%;
+        flex: auto;
+    }
+    .bollywood-life p.lead {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .grid-videos .card {
+        margin-bottom: 0;
+    }
+    section {
+        padding: 30px 0;
+    }
+    h5.title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .grid-videos.row {
+        margin-top: 0px;
+    }
+    .bubble-tv-box h2.sideTitle {
+        background-size: auto 63%;
+    }
+    #clockdiv-contain {
+        display: none;
+    }
+    p.release {
+        white-space: nowrap;
+    }
+    .md-p-0 {
+        padding: 0 !important;
+    }
+    .md-col-50 {
+        width: 50%;
+        float: left;
+        padding: 0 15px;
+    }
+    .glamour .row .sidedescription { 
+        padding: 0 10px;
+    }
+    .sub-cat p.lead {
+        padding: 10px 5px 5px;
+    }
+    .celeb-list li:nth-child(1){width: 36.37%;}
+    .celeb-list li:nth-child(2){width: 27.26%;}
+    .celeb-list li:nth-child(3){width: 36.37%;}    
+    .celeb-list li:nth-child(4){width: 42.85%;}
+    .celeb-list li:nth-child(5){width: 57.15%;}
+    .celeb-list li span{opacity: 1;font-size: 15px;}
+    .bubble-icons::before {
+        display: none;
+    }
+    #mySidenav .inner .icon-box {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
+    #mySidenav .inner .icon-box ul {
+        display: inherit;
+        margin: auto;
+    }
+    .ad-horizontal-970 {
+        display: none;
+    }
+    .width-600 .ad-horizontal-674 {
+        display: none;
+    }
+    header .navbar-light {
+        display: block;
+    }
+    #videos .nav-item {
+        margin-bottom: -1px;
+        padding: 5px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 5px 10px;
+    }
+    header .navbar-light .navbar-nav .nav-item {
+        float: right;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+    }
+    .bg-white .photo-list h2 {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 0;
+    }
+    h2.sideTitle { 
+        background-size: auto 53%;
+    }
+    .width-600 {
+        max-width: 100%;
+    }
+    .navbar-light .navbar-toggler {
+        margin-top: 25px;
+    }
+    h1.box::after {
+        top: 9px;
+    }
+    #clockdiv {
+        float: none;
+    }
+    .videos-bg .grid-videos {
+        padding: 0 ;
+    }
+    .videos-bg-full {
+        background: none;
+        padding: 0 !important;
+    }
+    .photos .photo-title::before {
+        left: 25%;
+    }
+    .photos .photo-title::after {
+        right: 23%;
+    }
+    .Bollywood-life .photo-title::before {
+        left: 5%;
+    }
+    .Bollywood-life .photo-title::after {
+        right: 4%;
+    }
+    .lists-bottom {
+        padding-left: 5px;
+        min-height: 220px;
+        max-height: 250px;
+        float: left;
+        display: block;
+    }
+
+    .card-title {
+        padding: 6px;
+    }
+    .lists-bottom ul li > a {
+        padding: 6px;
+    }
+    .sm-text-center {
+        text-align: center;
+    }
+    .pipe {
+        padding: 5px 0;
+    }
+    #carouselExampleSlidesOnly {
+        padding-top: 10px;
+    }
+    p.color-red {
+        padding-top: 20px;
+    }
+    h4 {
+        font-size: 24px !important;
+    }
+    .font-22 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .description {
+        padding:10px;
+        line-height: 24px;
+    }
+    .xs-text-center {
+        text-align: center;
+    }
+    .description {
+        margin: auto;
+        max-width: 320px;
+    }
+    i.arrows {
+        top: -5px;
+    }
+    .content-right .row {
+        margin: 0;
+    }
+    .pt-30 {
+        padding-top: 10px;
+    }
+    .sm-p-1 {
+        padding: 0 15px;
+    }
+    .mt-40 {
+        margin-top: 15px;
+    }
+    .mb-5 {
+        margin-bottom: 1rem!important;
+    }
+    .sm-pr {
+        padding-left: 15px;
+    }
+    .p-08 {
+        padding: 0.2rem 0 0.1rem 0.2rem;
+    }
+    .padding-q {
+        width: 100%;
+    }
+    .sm-inline-b {
+        display: inline-block;
+    }
+    .sm-mb-1 {
+        margin-bottom: 10px;
+    }
+    .boxOffice .p-static label {
+        font-size: 14px;
+    }
+    h4.box::after {
+        top: 15px;
+    }
+    p.logo-here {
+        padding-left: 20px;
+    }
+    p.logo-here::before {
+        left: -15px;
+    }
+    .ml-4{
+        margin-left: 0!important;
+    }
+    .md-4 {
+        width: 50%;
+        box-shadow: none;
+        border: none;
+        padding: 10px 20px;
+    }
+    .videos-bg ul li.card a {
+        border: 1px solid rgba(0,0,0,.125);
+    }
+    .md-block {
+        display: block !important;
+    }
+    .mt-40 {
+        margin-top: 10px;
+    }
+    .video-title {
+        left: 20%;
+        bottom: 0;
+        line-height: 24px;
+        max-width: 400px;
+        padding: 5px 10px;
+    }    
+    .bubble-icons {
+        background: none;   
+    }
+    .login-social .btn {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .profile-pic {
+        display: none;
+    }
+    .xs-mb-40 {
+        margin-bottom: 40px;
+    }
+    .xs-center {
+        text-align: center;
+    }
+    .main-special ul li h3, .exclusive ul li h3 {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: left;
+    }
+    .navbar .navbar-brand{
+        float: left;
+        margin: 0;
+        padding:0;
+    }
+    .navbar-toggle {
+        top: 14px;
+        float: left;
+    }
+    .grid-videos .d-grid {
+        display: none;
+    }
+    .mt-5 {
+        margin-top: 20px !important;
+    }
+    .sm-mb-3 {
+        margin-bottom: 1rem;
+    }
+    .sm-mb-5 {
+        margin-bottom: 2rem;
+    }
+    .video-bg {
+        background: url(../img/bubble-bg.png) top left repeat #9e0e12;;
+    }
+    .height80 {
+        height: 100%;
+    }
+    .height60 {
+        background-image: none;
+        height: auto;
+    }
+    .video-top {
+        display: none;
+    }
+    .video-link {
+        padding: 0;
+    }
+    .video-head {
+        padding: 0 5px;
+    }
+    .mb-5 {
+        margin-bottom: 15px !important;
+    }
+    .xs-p-0 {
+        padding: 0 !important;
+    }
+    .video-details {
+        padding-top: 0;
+    }
+    .m-3 {
+        margin-top: 0 !important;
+    }
+    h1.title {
+        padding: 0 10px
+    }
+    .tabs-main {
+        text-align: center;
+    }
+    .tabs-main .nav .nav-item:nth-child(1) {
+        padding-left: 0;
+    }
+    .tabs-main .nav .nav-item:last-child {
+        padding-right: 20px;
+    }
+    header {
+        min-height: 4rem;
+    }
+    div.side-tv {
+        display: none;
+    }
+    .collapse.navbar-collapse{
+        display: block;
+    }
+    div[class^="col-"]{
+        padding: 0 15px;
+    }
+    .xs-search {
+        display: block;
+        float: right;
+        margin: 0;
+        line-height: 0;
+    }
+    a.search-bar {
+        display: block;
+        /* padding: 10px; */
+        vertical-align: middle;
+        margin-top: 10px;
+    }
+    #search-box {
+        position: absolute;
+        right: 18%;
+        top: 16px;
+        max-width: 200px;
+    }
+    a.search-bar i {
+        font-size: 35px;
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    .inline-button {
+        display: block;
+    }
+    .videos-bg {
+        background-image: none;
+        padding-bottom: 0;
+    }
+    .videos-bg ul li.card a::after, .videos-bg ul li a.card::after {
+        bottom: 70px;
+    }
+    img.antenna {
+        display: none;
+    }
+    .grid-videos ul {
+        display: grid !important;
+    }
+    .grid-videos ul li{
+        display: grid !important;
+    }
+}
+
+/******** Mobile Device **********/
+@media (max-width:600px) {
+    
+    ul.filter-list li{min-width: 130px;}
+    ul.filter-list{width: 130px;}
+    .filter-box {width: 130px;}
+    .search-box {padding-left: 115px;}
+    .filter-box ul li a {padding: 5px;}
+    div.modal.search-modal .modal-dialog .modal-header.container {width: 100%;}
+    .floating-nav {display: block;}
+    .comment-box{background-image: none;padding: 20px 30px 30px 30px;}
+    .comment-box h2{margin-left: 0px;}
+    .box-office-list {
+        min-height: auto;
+    }
+    .full-h {
+        height: auto;
+    }
+    .profile .icon-box {
+        left: 85%;
+    }
+    .tabs-main .nav .nav-item:nth-child(1) {
+        padding-left: 20px;
+    }
+    .photo-list {
+        margin-bottom: 30px;
+    }
+    .celeb-list li:nth-child(1){width: 100%;}
+    .celeb-list li:nth-child(2){width: 100%;}
+    .celeb-list li:nth-child(3){width: 100%;}    
+    .celeb-list li:nth-child(4){width: 100%;}
+    .celeb-list li:nth-child(5){width: 100%;}
+    .celeb-list li span{font-size: 15px;}
+    .ad-horizontal-674 {
+        display: none;
+    }
+    .right-bar-fix-width-300 {
+        max-width: 100%;
+    }
+    .col-50 {
+        width: 100%;
+    }
+    .card {
+        height: auto;
+    }
+
+
+    .grid-videos .d-grid {
+        display: none;
+    }
+    .card-title {
+        margin-bottom: 0;
+    }
+    .xs-mb-0 {
+        margin-bottom: 0px;
+    }
+    .bg-pink div.right-side, .bg-pink div.left-side, .bg-pink div.main-special {
+        padding: 0 15px;
+    }
+    .video-list ul li{padding: 0 15px 15px 15px;}
+    .navbar-toggleable-md>.container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .tabs-main .nav {
+        display: inline-block;
+        text-align: center;
+        border-bottom: none;
+    }
+    .main-special h2, .exclusive h2 {
+        font-size: 22px;
+        line-height: 28px;
+        padding-top: 15px;
+        margin: 0;
+        color: #2b303a;
+        font-weight: 500;
+    }
+    .main-special .card-link, .exclusive .card-link {
+        margin-bottom: 15px;
+    }
+    h2.title.text-center {
+        padding: 0 5px;
+    }
+    header .navbar-light .navbar-nav {
+        display: block;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 5px 10px;
+    }
+    header .navbar-light .navbar-nav .nav-item {
+        float: right;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+    }
+    .navbar-light .navbar-toggler {
+        margin-top: 25px;
+    }
+    nav.nav {
+        display: block;
+    }
+    .videos-bg ul li.card a label {
+        padding: 10px;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .d-grid li.card {
+        margin-bottom: 20px !important;
+    }
+    .xs-text-center {
+        text-align: center;
+    }
+    .xs-fit-content {
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    h4.box::after {
+        top: 15px;
+    }
+    #clockdiv {
+        padding: 5px 10px;
+    }
+    .xs-hidden {
+        display: none !important;
+    }
+    div.smalltext {
+        display: none !important;
+    }
+    #clockdiv div > span {
+        padding: 4px 10px;
+        font-size: 20px;
+    }
+    .f-24 {
+        font-size: 24px;
+    }
+    .description p {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 100;
+    }
+    .text-color {
+        font-weight: 100;
+    }
+    .font-22 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .xs-m-0 {
+        margin: 0 !important;
+    }
+    .backgroung-icon.left, .backgroung-icon.right {
+        display: none;
+    }
+    .upcomingMovie {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .col-xs-6 {
+        width: 50%;
+    }
+    a.photo-link label {
+        padding: 5px 10px;
+        font-size: 14px;
+        bottom: 20px;
+
+    }
+    a.photo-link label::after {
+        height: 33px;
+        top:0;
+    }
+    a.photo-link p {
+        padding: 1px 10px;
+    }
+    #slider2 .item .card-footer {
+        margin: auto;
+    }
+    .md-block {
+        display: block !important;
+    }
+    .xs-text-center {
+        text-align: center;
+    }
+    .videos-bg ul li.card a::after {
+        left: 45%;
+    }
+    .video-title {
+        position: relative;
+        left: 0;
+        right: 0;
+        padding: 10px 15px;
+        line-height: normal!important;
+
+    }
+    .xs-p-0 {
+        padding: 0 !important;
+    }
+    .video-link::after {
+        top: 30%;
+    }
+    .xs-m-auto {
+        margin: 0 auto !important;
+        width: inherit;
+    }
+    .xs-mt-1 {
+        margin-top: 1rem;
+    }
+    .min-height-4 {
+        min-height: 40px;
+    }
+    .xs-block {
+        display: block;
+        margin-top: 15px;
+    }
+    h2.box::after {
+        display: none;
+    }
+    .xs-float-0 {
+        float: none!important;
+    }
+    .xs-full {
+        width: 100%;
+    }
+    .xs-p-1 {
+        padding: 30px 15px;
+    }
+    p.logo-here::before {
+        left: 0;
+    }
+    p.logo-here {
+        padding-left: 30px;
+    }
+    .lists-bottom {
+        padding-left: 25px;
+        float: left;
+        margin-top: 15px;
+    }
+    .photo-title {
+        padding: 0 !important;
+    }
+    .lists-bottom h5 {
+        display: inline-table;
+    }
+    .xs-p-3 {
+        padding: 0 30px !important;
+    }
+    .xs-p-10 {
+        padding: 10px 0 !important;
+    }
+    #clockdiv {
+        padding-top: 0;
+    }
+    .sm-p-0 {
+        padding: 0 !important;
+    }
+    .full-wide > .nav-tabs {
+        display: block;
+        text-align: center;
+    }
+    .full-wide > .nav-tabs .nav-link {
+        padding: 5px 0 !important;
+    }
+    .icon-box ul {
+        float: left;
+    }
+    section.not-found h1 {
+        font-size: 25px;
+        margin: 20px 0 0 0;
+    }
+    #login .modal-dialog {width: 320px;}
+    #login .modal-dialog .modal-content {border: none; padding: 0 20px; background: url(../img/login-bg-mobile.png) center center no-repeat #b60300;}
+    #login .modal-header {
+    min-height: 150px;    
+    background-size: 129px;}
+}
+
+/******** Extra small Mobile Device **********/
+@media (max-width:320px) {
+
+}
+@media (min-width: 1300px) {
+    p.logo-here::before {
+        left: -10%;
+    }
+    .icon-box {
+        display: flex;
+        padding-left: 0;
+    }
+}
+@media (min-width: 990px) and (max-width: 1100px) {
+    p.logo-here {
+        padding: 0 20px;
+    }
+    p.logo-here::before {
+        left: -4%;
+    }
+}
+@media (min-width: 1200px) {
+    .lists-bottom {
+        padding-left: 50px;
+    }
+}
+@media (min-width: 990px) {
+    div.side-tv {
+        display: none;
+    }
+    .grid-videos {
+        padding-right: 15px;
+        margin-top: 35px;
+    }
+
+}
+@media (max-width: 990px) {
+    .buzz-box .photo-link, .buzz-box .details {
+        width: 100%;
+    }
+    .about-me .description {width: 100%; margin: 0; max-width: initial;}
+}
+@media (max-width: 769px) {
+    .button a {
+        padding: 6px 0;
+        font-size: 13px;
+    }
+}
+@media (min-width: 769px) {
+    .navbar-collapse.collapse {
+        display: block;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
+        visibility: visible!important;
+    }
+    .xl-hidden {
+        display: none;
+    }
+    .grid-videos.row {
+        margin: 0;
+        margin-top: 35px;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .navbar-brand {
+        padding:  10px 10px 10px 35px;
+    }
+}
+@media (max-width: 767px) {
+    .rating-view {
+        padding: 0 15px;
+    }
+}
+/******** max width 1200px **********/
+@media (min-width: 990px) and (max-width: 1200px) {
+    .icon-box .mega-dropdown-menu {
+        top: 40px;
+    }
+    .video-title {
+        left: 5%;
+        bottom: 0;
+    }
+    .md-pt-10 {
+        padding-top: 10px !important;
+    }
+    .md-pt-20 {
+        padding-top: 20px !important;
+    }
+    .md-pt-30 {
+        padding-top: 30px !important;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    h5 {
+        font-size: 1.1rem;
+    }
+    label {
+        font-size: 0.9rem;
+    }
+    .mt-40 {
+        margin-top: 10px;
+    }
+    .mb-5 {
+        margin-bottom: 10px !important;
+    }
+    .col-33 img {
+        max-height: 200px;
+        width: 100%;
+    }
+    .font-22 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .button-link {
+        left: 33%;
+    }
+    .description {
+        padding: 10px 5px;
+    }
+    #ratingView .md-radio label {
+        min-width: 65px;
+    }
+    #ratingView .md-radio label:before {
+        left: 20px;
+    }
+    #ratingView .md-radio label:after {
+        left: 25px;
+    }
+    h4.artist {
+        font-size: 22px;
+    }
+    .videos-bg {
+        padding-bottom: 20px;
+    }
+    .grid-videos {
+        padding: 0 40px 40px 0 !important;
+        margin-top: 30px;
+    }
+    .grid-videos ul li:last-child {
+        margin: 0;
+    }
+    .grid-videos ul li a label {
+        padding: 5px;
+    }
+
+    .card-title {
+        padding-bottom: 0;
+        margin: 0;
+    }
+    .video-list {
+        padding: 1rem !important;
+    }
+    img.video-top {
+        top: -23%;
+        right: -15%;
+    }
+    .icon-box .mega-dropdown-menu {
+        top: 45px;
+        right: 0;
+        left: auto;
+    }
+    .width-600 {
+        flex: 600px;
+        max-width: 600px;
+    }
+}
+
+/********** max width 990px ***********/
+@media (min-width:768px) and (max-width: 990px) {
+
+
+}
+
+
+/***************************/
+
+@media (min-width: 576px) {
+    .bolly-wide {
+        width: 500px;
+        max-width: 100%;
+    }
+    .lg-hidden {
+        display: none;
+    }
+    .col-50 {
+        width: 50%;
+    }
+    .md-hide {
+        display: none;
+    }
+    .mb-4 {
+        margin-bottom: 1.5rem!important;
+    }
+}
+@media (min-width: 768px) {
+
+    .bolly-wide {
+        width: 720px;
+        max-width: 100%;
+    }
+    .navbar-header {
+        float: left;
+        padding: 0 15px;
+    }
+}
+@media (min-width: 990px) {
+    .bolly-wide {
+        width: 950px;
+        max-width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .bolly-wide {
+        width: 1080px;
+        max-width: 100%;
+    }  
+}
+

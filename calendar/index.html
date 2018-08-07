@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calendar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href='dist/fullcalendar.min.css' rel='stylesheet' />
+    <link href='dist/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+    <script src='lib/moment.min.js'></script>
+    <script src='lib/jquery.min.js'></script>
+    <script src='dist/fullcalendar.min.js'></script>
+    <script src='dist/gcal.min.js'></script>
+</head>
+<body>
+<div class="container">
+    <div class="col-md-8 mt-5">
+        <div class="" id="calendar">
+
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    $(function() {
+
+        // page is now ready, initialize the calendar...
+
+        $('#calendar').fullCalendar({
+            // put your options and callbacks here
+            events: [
+                {
+                    title  : 'leave',
+                    start  : '2018-05-01'
+                },
+                {
+                    title  : 'event2',
+                    start  : '2010-01-05',
+                    end    : '2010-01-07'
+                },
+                {
+                    title  : 'event3',
+                    start  : '2010-01-09T12:30:00',
+                    allDay : false // will make the time show
+                }
+            ],
+
+            default: [
+                {
+                    left: 'hey',
+                    title: 'Full'
+                }
+
+            ],
+            footer: [
+                {
+
+                }
+            ],
+            //defaultView: ''
+        })
+
+    });
+</script>
+</body>
+</html>

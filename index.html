@@ -1,0 +1,313 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootstrap-4/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/5.1.0/videojs.ads.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.scss">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <link href="https://vjs.zencdn.net/7.1.0/video-js.css" rel="stylesheet">
+
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+</head>
+<body>
+
+<main>
+    <section id="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card animated fadeInLeft ">
+                        <div class="card-header">
+                            <h3>Here is the link</h3>
+                        </div>
+                        <div class="card-block">
+                            <img src="images/news-1.jpg" class="img-fluid">
+                            <div class="card-footer">
+                                <a href="#">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="col-md-4">
+                <div class="card animated fadeInUp">
+                    <div class="card-header">
+                        <h3>Here is the link</h3>
+                    </div>
+                    <div class="card-block">
+                        <img src="images/news-2.jpg" class="img-fluid">
+                        <div class="card-footer">
+                            <a href="#">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card animated fadeInRight">
+                    <div class="card-header">
+                        <h3>Here is the link</h3>
+                    </div>
+                    <div class="card-block">
+                        <img src="images/news-3.jpg" class="img-fluid">
+                        <div class="card-footer">
+                            <a href="#">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<section class="bg_anim">
+    <div class="container">
+        <div class="row">
+            <div class="m-auto col-sm-6">
+                <p class="slide_anim" style="height: 500px;margin-top: 100px;">
+                    <img src="images/news-3.jpg" class="img-fluid">
+                </p>
+            </div>
+            <div class="m-auto col-sm-6">
+                <p class="slide-rotate-hor-t-bck" style="height: 500px;">
+                    <img src="images/news-2.jpg" class="img-fluid">
+                </p>
+            </div>
+        </div>
+        <p>
+            <span class="shaking" style="display: block; text-align: center;">shake the text</span>
+        </p>
+    </div>
+</section>
+<video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+       poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+    <source src="video/Homepage_Hero_Video_Edit.mp4" type='video/mp4'>
+    <!--<source src="MY_VIDEO.webm" type='video/webm'>-->
+    <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+</video>
+
+<script src="https://vjs.zencdn.net/7.1.0/video.js"></script>
+<section>
+    <div class="container">
+
+        <input type="button" id="btnClick" value="Click me" onclick="CountFun();">
+        <p
+                id="showCount"> </p>
+    </div>
+</section>
+<section>
+    <div id="contact_form">
+        <form name="contact" action="">
+            <fieldset>
+                <label for="name" id="name_label">Name</label>
+                <input type="text" name="name" id="name" size="30" value="" class="text-input" />
+                <label class="error" for="name" id="name_error">This field is required.</label>
+                <br>
+                <label for="email" id="email_label">Return Email</label>
+                <input type="text" name="email" id="email" size="30" value="" class="text-input" />
+                <label class="error" for="email" id="email_error">This field is required.</label>
+                <br>
+                <label for="phone" id="phone_label">Return Phone</label>
+                <input type="text" name="phone" id="phone" size="30" value="" class="text-input" />
+                <label class="error" for="phone" id="phone_error">This field is required.</label>
+
+                <br />
+                <input type="submit" name="submit" class="button" id="submit_btn" value="Send" />
+            </fieldset>
+        </form>
+    </div>
+</section>
+<section style="padding: 100px 0;">
+    <div class="container">
+        <div class="col-md-6 m-auto">
+            <form action="javascript:void(0)" method="get" id="formSub">
+                <div class="form-group">
+                    <label for="name_1"></label>
+                    <input type="text" class="form-control" placeholder="Name" id="name_1">
+                    <label for="email_1"></label>
+                    <input type="email" class="form-control" placeholder="Email" id="email_1">
+                    <label for="number_1"></label>
+                    <input type="number" class="form-control" placeholder="Number" id="number_1">
+                    <input type="submit" class="btn btn-primary" placeholder="" id="=submit" value="Submit">
+                </div>
+                <div id="div"></div>
+            </form>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <img src="images/boxoffice-2.jpg">
+        <div id="swapImg">
+            <img src="images/boxoffice-1.jpg" id="image">
+            <button type="button" class="btn btn-primary" onclick="swapImg();" id="button">Swap Img</button>
+        </div>
+    </div>
+    <!--<script>
+        var swap = document.getElementById('button');
+        var image = document.getElementById('image');
+        function swapImg() {
+            image.src = 'images/boxoffice-2.jpg';
+        }
+        //swap.click(function () {
+
+        // });
+    </script>-->
+
+</section>
+<style>
+    .icon-facebook:before {
+        content: "\20";
+    }
+</style>
+<section>
+    <svg>
+        <circle r="50" cx="100" cy="100" fill="#ddd" stroke="#000"></circle>
+    </svg>
+    <span class="icon-facebook"></span>
+</section>
+<script type="text/javascript">
+    <!--
+
+    //-->
+</script>
+
+
+<p>Click the following button to see the result: </p>
+
+<form>
+    <input type="button" value="Click Me" onclick="getValue();" />
+</form>
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/jquery.circlechart.js"></script>
+<script src="js/jquery.waterwheelCarousel.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var cnt=0;
+        function CountFun(){
+            cnt=parseInt(cnt)+parseInt(1);
+            var divData=document.getElementById("showCount");
+            divData.innerHTML="Number of Downloads: ("+cnt +")";//this part has been edited
+
+        }
+    });
+    function swapImg () {
+        $('#image').attr('src','images/boxoffice-2.jpg');
+    }
+</script>
+
+<!--<script src="bootstrap-4/bootstrap/js/bootstrap.min.js"></script>-->
+
+<script src="node_modules/es5-shim/es5-shim.js"></script>
+
+<script>
+
+    //debugger;
+    $('.shaking').add('p');
+    $('#check').attr('checked', 'checked');
+    //alert('hey');
+    //debugger;
+    //$('div.showDiv').toggle('display');
+    //});
+
+
+    $(function() {
+        $('.error').hide();
+        $(".button").click(function() {
+            // validate and process form here
+
+            $('.error').hide();
+            var name = $("input#name").val();
+            if (name == "") {
+                $("label#name_error").show();
+                $("input#name").focus();
+                return false;
+            }
+            var email = $("input#email").val();
+            if (email == "") {
+                $("label#email_error").show();
+                $("input#email").focus();
+                return false;
+            }
+            var phone = $("input#phone").val();
+            if (phone == "") {
+                $("label#phone_error").show();
+                $("input#phone").focus();
+                return false;
+            }
+
+        });
+    });
+
+
+
+    $(document).ready(function () {
+        $('#formSub').on('submit', function () {
+            var name = $('#name_1').val();
+            var email = $('#email_1').val();
+            var number = $('#number_1').val();
+
+            //if(name == "" || email == "" || number == ""){
+            //alert('please enter name');
+
+            var input = prompt('enter value here');
+            //console.log('form not submitted');
+            //return false;
+            //$(document).write(name);
+
+            //}
+            //else {
+
+            //console.log('form submitted');
+            //name == input;
+            //console.log(input);
+            return true;
+            //}
+
+
+            //var input = prompt(name);
+
+        });
+
+    });
+    function getValue(){
+        var retVal = prompt("Enter your name : ", "your name here");
+        //document.write("You have entered : " + retVal);
+
+        var div = $('#div').val();
+        console.log(retVal);
+        div = retVal;
+
+
+    }
+
+</script>
+
+
+
+</body>
+</html>
+

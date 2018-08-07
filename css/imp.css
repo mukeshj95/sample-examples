@@ -1,0 +1,14 @@
+[id='toggle-heart'] {
+    position: absolute;
+    left: -100vw;
+}
+[for='toggle-heart'] {
+    color: #ffffff;
+}
+[for='toggle-heart'] {
+    font-size: 2em;
+    cursor: pointer;
+}
+[id='toggle-heart']:checked + label {
+    color: #e2264d;
+}
